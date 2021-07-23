@@ -204,11 +204,24 @@ body {
 .footer .logo {
   color: var(--white-text-color);
 }
+
+.footer .logo:focus,
+.footer .logo:hover {
+  color: var(--accent-color);
+}
+
 .address-link {
   font-style: normal;
   text-decoration: none;
   line-height: 1.71;
   color: var(--white-text-color);
+}
+
+.address-link:hover,
+.address-link:focus,
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--accent-color);
 }
 
 .footer-link {
